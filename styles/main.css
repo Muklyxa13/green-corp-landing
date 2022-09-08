@@ -81,3 +81,32 @@ button {
     max-width: 550px;
 }
 
+.form__container {
+    width: 550px;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d263a;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 48px;
+}
+
+.form p {
+    font-size: 18px;
+    opacity: 0.65;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
