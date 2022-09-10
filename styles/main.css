@@ -35,8 +35,14 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    box-shadow: 0 16px 36px rgb(52 213 68 / 40%);
+    box-shadow: 0 16px 36px rgb(52 213 68 / 20%);
     padding: 15px;
+}
+
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgb(246 152 12 / 20%);
+    transition: 0.3s ease-in;
 }
 
 .about__image {
@@ -159,4 +165,43 @@ select {
 
 input {
     outline: none;
+}
+
+footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.footer__group {
+    margin-right: 80px;
+}
+
+.footer__group h3 {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    margin-bottom: 15px;
 }
