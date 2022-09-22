@@ -3,7 +3,10 @@
 <head>
     <title>Солнечные батареи GreenCorp</title>
     <link rel="stylesheet" href="./styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -14,12 +17,12 @@
         </div>
     </header>
     <section class="about">
-        <div class="about_info">
+        <div class="about_info animate__animated animate__fadeInLeft animate__slow">
             <h1>Солнечные панели GreenRobotic</h1>
             <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-            <button>Узнать подробнее</button>
+            <button class="icon">Узнать подробнее <i class="fas fa-angle-right"></i></button>
         </div>
-        <div class="about_images">
+        <div class="about_images animate__animated animate__fadeInRight animate__slow">
             <img class="about__sun-image" src="./img/sun.png" alt="Яркое солнце">
             <img class="about__image" src="./img/solar-panel.png" alt="Солнечные панели">
         </div>
@@ -48,7 +51,7 @@
                         <option value="10-30">10 000₽ – 30 000₽</option>
                         <option value="30-60">30 000₽ – 60 000₽</option>
                         <option value="60-100">60 000₽ – 100 000₽</option>
-                        <option value="100+">100 000₽ +</option>
+                        <option value="100+">100 000₽</option>
                     </select>
                 </div>
                 <button type="submit" class="form__submit">Отправить заявку</button>
