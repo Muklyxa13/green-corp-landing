@@ -13,7 +13,6 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #213053;
     margin: 0px;
-    padding: 10px;
 }
 
 .header__logo {
@@ -52,10 +51,6 @@ button:hover {
 .about__image {
     width: 500px;
 }
-
-/* .about .animate__animated {
-    animation-duration: 2s;
-} */
 
 .about__sun-image {
     width: 100px;
@@ -224,24 +219,170 @@ footer {
         transform: rotate(360deg);
     }
 }
-/* 
-@keyframes animate__fadeInLeft {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+
+.features {
+    background-color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-@keyframes animate__fadeInRight {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-} */
+.cards {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 50px;
+}
+
+.card {
+    padding: 35px 40px 25px;
+    border: 1px solid #d9e4e6;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.8;
+}
+
+.card__logo {
+    height: 100px;
+    width: 100px;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #eaeff9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solar-panel {
+    color: #ffb406;
+}
+
+.textLogo {
+    color: #ad1714;
+}
+
+.fa-chart-line {
+    color: #22a030;
+}
+
+.features__border {
+    border: 1px solid #E6EAF4;
+    margin: 50px 0px;
+}
+
+.features__feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__feedback-left {
+    margin-right: 10px;
+}
+
+.features__feedback-left h2 {
+    font-size: 48px;
+}
+
+.features__feedback-left p {
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.features__feedback-right {
+    display: flex;
+}
+
+.features__box {
+    padding: 30px 40px 25px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.features__box h3 {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.features__savings-box {
+    background-color: #dc5e26;
+    box-shadow: 0px 6px rgb(221 95 38 / 20%);
+    margin-right: 30px;
+}
+
+.features__rate-box {
+    background-color: #1D263A;
+    box-shadow: 0px 6px rgb(29 38 58 / 20%);
+}
+
+.stars {
+    color: #ff7039;
+}
+
+.promo {
+    display: flex;
+}
+
+.promo__image {
+    background-image: url(/img/promo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.promo__right {
+    background-color: #dd5f26;
+    padding: 160px 60px;
+}
+
+.right__promo {
+    background-color: #fff;
+    padding: 30px 40px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.right__promo p {
+    opacity: 0.8;
+}
+
+.right__promo p::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ec6b29;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.promo__button button {
+    background-color: #107b1c;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+
+.promo__button {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-chevron-right {
+    font-size: 15px;
+    margin-left: 5px;
+}
 
  /* Телефоны */
 @media (max-width: 720px) {
