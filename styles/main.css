@@ -91,12 +91,12 @@ button:hover {
     margin-top: 20px;
 }
 
-.about__info {
+.about_info {
     max-width: 550px;
 }
 
 .form__container {
-    width: 550px;
+    /* width: 550px; */
 }
 
 .form {
@@ -431,6 +431,49 @@ footer {
 
     .footer__container {
         flex-direction: column;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .features__feedback {
+        flex-direction: column;
+    }
+
+    .features__feedback-left {
+        margin: 0px;
+    }
+
+    .features__feedback-left h2 {
+        font-size: 36px;
+    }
+
+    .features__feedback-right {
+        flex-direction: column;
+    }
+
+    .features__box h3 {
+        font-size: 36px;
+    }
+    
+    .features__savings-box {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    .promo__image {
+        height: 500px;
+        width: 100vw;
+    }
+
+    .promo {
+        flex-direction: column-reverse;
+    }
+
+    .promo__right {
+        padding: 50px 10px;
     }
 }
 
